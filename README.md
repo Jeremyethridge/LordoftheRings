@@ -7,11 +7,9 @@ In this application you can type in whatever character you want to search for in
 ## Motivation
 What motivated me to make this application was make something with a 3rd-party api for practice and I thought what better way to do that then my favorite movie series!
 
-## Usage
-To use this application all you need to do is:
-1. Clone the repository
-2. Start the application
-3. When the application opens up you will have full access to the characters, books, and movies of lord of the rings
+## Deployment
+[Click Here!
+](https://jeremyethridgelotr.netlify.app/)
 
 ## Screenshot
-![LOTR-React-Practice](https://github.com/Jeremyethridge/LordoftheRings/assets/128623643/494525fb-41f9-4b01-926d-ceb1a54cdd87)
+![Lordoftherings](https://github.com/Jeremyethridge/LordoftheRings/assets/128623643/6c1a23d4-3df4-4dd2-bb3a-1c0e10b28893)
