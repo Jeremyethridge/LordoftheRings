@@ -8,7 +8,7 @@ In this application you can type in whatever character you want to search for in
 What motivated me to make this application was make something with a 3rd-party api for practice and I thought what better way to do that then my favorite movie series!
 
 ## Deployment
-[Click Here!
+[Click Here To Visit Application!
 ](https://jeremyethridgelotr.netlify.app/)
 
 ## Screenshot
