@@ -13,7 +13,6 @@ export default function useFetchData(selection) {
                 'Authorization': `Bearer ${APITOKEN}`
             }
         }
-  
     useEffect(() => {
         if (!selection){
             return
@@ -22,10 +21,12 @@ export default function useFetchData(selection) {
         async function fetchData() {
             const url = apiUrl + '/' + selection
             try {
-
                 const res = await fetch(url, options)
+                if (!res.ok) {
+                    throw new Error(`HTTP error! Status: ${res.status}`);
+                  }
+                  
                 const jsonData = await res.json()
-                console.log('DATA: ', jsonData)
                 setData(jsonData)
             } catch(err) {
                 setError(err.message)
@@ -33,7 +34,6 @@ export default function useFetchData(selection) {
                 setLoading(false)
             }
         }
-    
         fetchData()
       }, [selection])
 
